@@ -29,7 +29,7 @@ Just a little plugin for displaying your last commits on your website.
 </html>
 `````
 And the result :
-![Alt text](/sceen.png "screenshot")
+![Alt text](sceen.png "screenshot")
 
 Todo : 
 Make the script AMD compatible
