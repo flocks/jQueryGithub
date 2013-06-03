@@ -30,3 +30,6 @@ Just a little plugin for displaying your last commits on your website.
 `````
 And the result :
 ![Alt text](/sceen.png "screenshot")
+
+Todo : 
+Make the script AMD compatible
