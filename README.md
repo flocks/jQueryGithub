@@ -28,8 +28,9 @@ Just a little plugin for displaying your last commits on your website.
 	</body>
 </html>
 `````
-And the result :
 ![Alt text](/screen.png "screenshot")
 
 Todo : 
-Make the script AMD compatible
+- Make the script AMD compatible
+- improve CSS
+- Add more options
