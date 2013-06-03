@@ -24,6 +24,8 @@
 			}
 
 			$(that).append('</ul>');
+
+			return that;
  		});
   
 		
