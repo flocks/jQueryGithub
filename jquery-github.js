@@ -4,9 +4,12 @@
 	var baseUrl  = 'https://api.github.com/repos/';
 
 	$.fn.githubCommits = function(user, repo, nb_commits) {
+
+		var that = this;
 		$.ajax({url: "https://api.github.com/repos/"+user+"/"+repo+"/commits"}).done(function(data) {
-			console.log(data);
-			console.log("c bon");
+			$(that).append("salut");
  		});
+  
+		
 	}
 })(jQuery);
