@@ -2,17 +2,21 @@
 	<head>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="jquery-github.js"></script>
-			
+		<script type="text/javascript">
+			$('document').ready(function() {
+				$('#jquery-github').githubCommits("flocks", "Cornelien", 7, 'My Commits');
+			});
+		</script>
+
+		<link href="style.css" rel="stylesheet" media="all" type="text/css"> 
+
 
 	</head>
 	<body>
 		
 		<div id="jquery-github">
-			tetz
 		</div>
 
-		<script type="text/javascript">
-				$('#jquery-github').githubCommits("flocks", "Cornelien", 5);
-			</script>
+		
 	</body>
 </html>
