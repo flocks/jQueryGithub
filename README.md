@@ -4,7 +4,7 @@ jQueryGithub
 
 Just a little plugin for displaying your last commits on your website.
 
-`````javascript
+`````html
 <html>
   <head>
 		<script type="text/javascript" src="jquery.js"></script>
